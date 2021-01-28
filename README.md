@@ -17,7 +17,7 @@ class TYPO3Developer
   
   public function getDescription()
   {
-    return $description;
+    return $this->description;
   }
 }
 ```
