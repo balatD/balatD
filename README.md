@@ -7,12 +7,11 @@ class TYPO3Developer
 {
   protected $description = [
     'name' => 'Dragan Balatinac',
-    'role' => 'Junior TYPO3 Developer',
+    'role' => 'TYPO3 Developer',
     'location' => 'Essen, Germany',
     'technologies' => 'TYPO3, Fluid, Extbase, PHP, 
-      MySQL, Linux, Laravel, Symfony, Javascript, 
-      AJAX, HTML, Bootstrap',
-    'email' => 'balatinacdragan1@gmail.com' 
+      MySQL, Linux, Laravel, Symfony, JavaScript',
+    'email' => 'dragan@balatinac.com' 
   ];
   
   public function getDescription()
