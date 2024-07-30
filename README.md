@@ -7,10 +7,10 @@ class TYPO3Developer
 {
   protected $description = [
     'name' => 'Dragan Balatinac',
-    'role' => 'TYPO3 Developer',
+    'role' => 'Teamlead Backend Development',
     'location' => 'Essen, Germany',
     'technologies' => 'TYPO3, Fluid, Extbase, PHP, 
-      MySQL, Linux, Laravel, Symfony, JavaScript',
+      MySQL, Linux, Laravel, Symfony, JavaScript, TypeScript, PayloadCMS',
     'email' => 'dragan@balatinac.com' 
   ];
   
