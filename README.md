@@ -21,10 +21,10 @@ final readonly class DraganBalatinac
         return [
             'TYPO3' => ['Fluid', 'Extbase'],
             'PHP' => ['Laravel', 'Symfony'],
-            'Frontend' => ['JavaScript', 'TypeScript'],
-            'Data' => ['MySQL'],
-            'Infrastructure' => ['Linux'],
-            'CMS' => ['Payload CMS'],
+            'Frontend' => ['JavaScript', 'TypeScript', 'React', 'Inertia', 'NextJS'],
+            'Data' => ['MySQL', 'PostreSQL', 'Redis'],
+            'Infrastructure' => ['Linux', 'Docker', 'Ansible'],
+            'CMS' => ['Payload CMS', 'Statamic'],
         ];
     }
 
