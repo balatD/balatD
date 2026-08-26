@@ -1,22 +1,51 @@
 ```php
 <?php
 
-namespace Balat/Readme;
+declare(strict_types=1);
 
-class TYPO3Developer
+namespace Balat\Readme;
+
+final readonly class DraganBalatinac
 {
-  protected $description = [
-    'name' => 'Dragan Balatinac',
-    'role' => 'Teamlead Backend Development',
-    'location' => 'Essen, Germany',
-    'technologies' => 'TYPO3, Fluid, Extbase, PHP, 
-      MySQL, Linux, Laravel, Symfony, JavaScript, TypeScript, PayloadCMS',
-    'email' => 'dragan@balatinac.com' 
-  ];
-  
-  public function getDescription()
-  {
-    return $this->description;
-  }
+    public string $role;
+    public string $location;
+
+    public function __construct()
+    {
+        $this->role = 'Teamlead Backend Development';
+        $this->location = 'Essen, Germany';
+    }
+
+    public function worksWith(): array
+    {
+        return [
+            'TYPO3' => ['Fluid', 'Extbase'],
+            'PHP' => ['Laravel', 'Symfony'],
+            'Frontend' => ['JavaScript', 'TypeScript'],
+            'Data' => ['MySQL'],
+            'Infrastructure' => ['Linux'],
+            'CMS' => ['Payload CMS'],
+        ];
+    }
+
+    public function caresAbout(): array
+    {
+        return [
+            'clean code',
+            'scalable architecture',
+            'great developer experience',
+            'knowledge sharing',
+        ];
+    }
+
+    public function sayHello(): string
+    {
+        return 'Let’s build something great.';
+    }
+
+    public function contact(): string
+    {
+        return 'dragan@balatinac.com';
+    }
 }
 ```
